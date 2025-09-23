@@ -3,8 +3,16 @@ const router = express.Router();
 
 // In-memory array to store students
 let alunos = [
-  { id: 1, nome: 'João Silva', email: 'joao@gamil.com', cpf: '12345678901', telefone: '11987654321', dataNascimento: '2000-01-15' },
-  { id: 2, nome: 'Maria Oliveira', email: 'maria@gmail', cpf: '98765432109', telefone: '11912345678', dataNascimento: '1999-05-20' }
+  { id: 1, nome: 'Mateus Rodrgues',
+     email: '    Mateus@gmail.com',
+     cpf: '12345678901', 
+     telefone: '11987654321', 
+     dataNascimento: '2000-01-15' },
+  { id: 2, nome: 'Fabricio Firmino',
+     email: 'Firmino@gmail',
+      cpf: '98765432109',
+       telefone: '11912345678',
+        dataNascimento: '1999-05-20' }
 ];
 
 let nextId = 3;

@@ -3,8 +3,18 @@ const router = express.Router();
 
 // In-memory array to store teachers
 let professores = [
-  { id: 1, nome: 'Ana Costa', email: 'ana@gmail.com', cpf: '11122233344', curso: 'Matemática', disciplina: 'Cálculo I' },
-  { id: 2, nome: 'Carlos Souza', email: 'carlos@gmail.com', cpf: '55566677788', curso: 'Física', disciplina: 'Mecânica' }
+  { id: 1, nome: 
+    'Mateus Rodrgues',
+     email: 'Mateus@gmail.com', 
+     cpf: '11122233344',
+      curso: 'Matemática',
+    disciplina: 'Cálculo I' },
+  { id: 2, 
+    nome: 'Fabricio Firmino',
+     email: 'Fabricio@gmail.com', 
+     cpf: '55566677788', 
+     curso: 'Física', 
+     disciplina: 'Mecânica' }
 ];
 
 let nextId = 3;
